@@ -1,6 +1,6 @@
 <?php
 
-namespace TiMacDonald;
+namespace Prototype;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
@@ -11,5 +11,6 @@ function styles(Finder $finder, array $rules = []): Config {
     return Config::create()
         ->setFinder($finder)
         ->setRiskyAllowed(true)
-        ->setRules($rules);
+        ->setRules($rules)
+        ->setLineEnding("\n");
 }

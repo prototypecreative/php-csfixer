@@ -1,6 +1,6 @@
 {
-    "name": "timacdonald/php-style-example",
-    "description": "Tim's shared PHP style rules for PHP-CS-Fixer",
+    "name": "prototypecreative/php-csfixer",
+    "description": "Shared PHP style rules for PHP-CS-Fixer",
     "license": "MIT",
     "require": {
         "friendsofphp/php-cs-fixer": "^2.0"
